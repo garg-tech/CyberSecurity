@@ -25,7 +25,7 @@ This is a somewhat modified form of a keylogger as it records not only keystroke
 
 ## Test Results
 
-The demo test results screenshots are available in the same directory.
+The demo test results screenshots are available [_here_](https://github.com/garg-tech/CyberSecurity/tree/main/Keylogger/Images).
 
 ## Contact
 Created by Devansh Garg - feel free to contact me!
