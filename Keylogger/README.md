@@ -4,7 +4,7 @@
 
 # Keylogger
 
-> A keylogger program that emails system information, logged keystrokes, mouse activity, screenshots and microphone data.
+> A keylogger program that emails system information, logged keystrokes, mouse activity, screenshots and microphone data every two hours.
 
 ## Table of Contents
 * [General Info](#general-information)
