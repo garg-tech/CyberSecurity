@@ -1,2 +1,2 @@
 # CyberSecurity
-This repository contains different programs for protecting or penetrating systems.
+I will use this repository to store programs for protecting or penetrating systems and services.
