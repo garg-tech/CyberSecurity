@@ -4,3 +4,5 @@ I will use this repository to store projects related to the field of cybersecuri
 ## First Project
 Keylogger - A keylogger program that emails system information, logged keystrokes, mouse activity, screenshots and microphone data.
 
+## Second Project
+Secret Image Sharing - Implemented Thien and Lin's method for secret image sharing.
