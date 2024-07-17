@@ -15,6 +15,7 @@ The main goal of this technique is to not allow a single person to have authorit
 ## Technologies Used
 
 * numpy - 1.26.1
+* opencv - 4.10.0.82
 
 ## Test Results
 
