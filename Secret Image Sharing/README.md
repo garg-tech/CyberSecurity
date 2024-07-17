@@ -18,7 +18,7 @@ The main goal of this technique is to not allow a single person to have authorit
 
 ## Test Results
 
-The demo test results are available [_here_](https://github.com/garg-tech/CyberSecurity/tree/main/Secret Image Sharing/Sample Images).
+The demo test results are available [_here_](https://github.com/garg-tech/CyberSecurity/tree/main/Secret%20Image%20Sharing/Sample%20Images).
 
 ## Contact
 Created by Devansh Garg - feel free to contact me!  
