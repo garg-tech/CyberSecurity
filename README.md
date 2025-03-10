@@ -6,3 +6,6 @@ Keylogger - A keylogger program that emails system information, logged keystroke
 
 ## Second Project
 Secret Image Sharing - Implemented Thien and Lin's method for secret image sharing.
+
+## Third Project
+Rule Enforcement Verification (REV) - Suggested by Zhang et al., this can be used to enforce rule verification in a network.
