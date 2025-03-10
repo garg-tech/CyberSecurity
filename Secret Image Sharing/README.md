@@ -23,4 +23,4 @@ The demo test results are available [_here_](https://github.com/garg-tech/CyberS
 
 ## Contact
 Created by Devansh Garg - feel free to contact me!  
-dgarg1806@gmail.com
+gargdevansh1806@gmail.com
