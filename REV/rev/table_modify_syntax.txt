@@ -1,0 +1,2 @@
+table_modify <table name> <action name> <entry handle> [action parameters]
+table_modify MyIngress.ipv4_lpm MyIngress.ipv4_forward 3 08:00:00:00:03:00 3

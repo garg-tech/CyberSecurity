@@ -1,0 +1,49 @@
+{
+  "target": "bmv2",
+  "p4info": "build/s2.p4.p4info.txtpb",
+  "bmv2_json": "build/s2.json",
+  "table_entries": [
+    {
+      "table": "MyIngress.ipv4_lpm",
+      "default_action": true,
+      "action_name": "MyIngress.drop",
+      "action_params": {}
+    },
+    {
+      "table": "MyIngress.ipv4_lpm",
+      "match": {
+        "hdr.ipv4.dstAddr": ["10.0.1.1", 32]
+      },
+      "action_name": "MyIngress.ipv4_forward",
+      "action_params": {
+        "dstAddr": "08:00:00:00:01:00",
+        "port": 2
+      }
+    },
+    {
+      "table": "MyIngress.ipv4_lpm",
+      "match": {
+        "hdr.ipv4.dstAddr": ["10.0.2.2", 32]
+      },
+      "action_name": "MyIngress.multicast",
+      "action_params": {
+        "dstAddr": "00:00:00:00:02:02"
+      }
+    }
+  ],
+  "multicast_group_entries": [
+    {
+      "multicast_group_id": 6,
+      "replicas": [
+        {
+          "egress_port": 255,
+          "instance": 1
+        },
+        {
+          "egress_port": 1,
+          "instance": 1
+        }
+      ]
+    }
+  ]
+}
