@@ -162,7 +162,7 @@ def main(topo_file_path):
 # Entry Point
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Controller for REV')
-    parser.add_argument('--topo', help='Topology file', type=str, action='store', required=True)
+    parser.add_argument('--topo', help='Topology file', type=str, action='store', required=True, default='./topologies/topo4/topology.json')
     args = parser.parse_args()
     
     if not os.path.exists(args.topo):
