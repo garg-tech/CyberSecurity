@@ -34,13 +34,16 @@ def get_if():
     return iface
 
 def main():
-    if len(sys.argv) < 4:
+    if len(sys.argv) < 3:
         print('Usage: send.py <destination> "<message>" <number_of_packets>')
         exit(1)
-
+    elif len(sys.argv) == 3:
+        num_packets = 1
+    else:
+        num_packets = int(sys.argv[3])
+                          
     addr = socket.gethostbyname(sys.argv[1])
     iface = get_if()
-    num_packets = int(sys.argv[3])
 
     print(f"Sending {num_packets} packets on interface {iface} to {addr}")
     for i in range(num_packets):
