@@ -1,6 +1,6 @@
 # Rule Enforcement Verification (REV)
 
-> This enables the controller to verify if the rules have been properly enforced that it issued.
+> This enables the controller to verify if the rules that it issued have been properly enforced.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -16,7 +16,7 @@ The main goal of this is to prevent attacks on a network like Path Deviation and
 ## Technologies Used
 
 * scapy - 2.5.0
-* p4 compiler - 1.2.4.14
+* p4 compiler - 1.2.4.14 ([Download VM here](https://drive.google.com/file/d/1mUspxxo7sG0-omvnu6IJasKKSP0PVbCj/view))
 
 ## How To Run?
 
@@ -29,7 +29,7 @@ The main goal of this is to prevent attacks on a network like Path Deviation and
    ```
    By default, **TOPO_DIR = topologies/topo4/**
    
-4. When the mininet is up run the following command:
+4. When the mininet is up, run the following command:
    ```
        mininet> xterm h1 h<n>
    ```
