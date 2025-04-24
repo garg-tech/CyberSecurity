@@ -65,6 +65,8 @@ The Rule Enforcement Verification works well and is able to detect any kind of d
 | 16                             | 36.88                    |
 | 32                             | 91.43                    |
 
+![REV Verification Results](rev/Performance-Analysis-of-REV.png)
+
 ## Contact
 Implemented by Devansh Garg - feel free to conatct me!
 gargdevansh1806@gmail.com
